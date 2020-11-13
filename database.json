@@ -1,0 +1,12 @@
+{
+
+    "host": "192.168.0.3",
+    "user": "postgres",
+    "password":"hw2014",
+    "port": "5432",
+    "database": "grabtobe"
+
+}
+
+
+

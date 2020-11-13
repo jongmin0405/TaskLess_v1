@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\leshop\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Business Objects\Common\3.5\bin\NOTES\;C:\Program Files (x86)\Business Objects\Common\3.5\bin\NOTES\DATA\;c:\app\leshop\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%POSTGRES%;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\leshop\AppData\Local\Microsoft\WindowsApps;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\leshop\AppData\Roaming\npm;C:\Users\leshop\AppData\Local\atom\bin;C:\Users\leshop\AppData\Local\Programs\Microsoft VS Code\bin;E:\PostgreSQL\12\bin;C:\Users\leshop\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\cmd;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\TeskLess_v1\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\leshop\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\leshop\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\leshop\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "management",
+      "version": "1.0.0",
+      "scripts": {
+      "client": "cd client && yarn start",
+      "server": "nodemon server.js",
+      "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+      },
+      "dependencies": {
+      "body-parser": "^1.18.3",
+      "express": "^4.16.4"
+      },
+      "devDependencies": {
+      "concurrently": "^4.0.1"
+      }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
