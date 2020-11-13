@@ -14,7 +14,7 @@ const { Client } = require("pg");
 const client = new Client(conf);
 
 client.connect();
-
+//
 app.get("/api/customers", (req, res) => {
  //client.query(`SET search_path TO "taskless";` );
   client.query(
